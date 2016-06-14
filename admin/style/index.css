@@ -1,0 +1,186 @@
+select {
+	cursor: pointer;
+}
+	#panel1 .hd {
+		margin: 0 auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+	#panel1 .checkbox-wrapp {
+		padding: 5px 5px;
+		width: 100%;
+		height: 240px;
+		border: solid 1px rgb(200, 200, 200);
+		overflow: auto;
+	}
+	#panel1 .checkbox {
+		float: left;
+		width: 100%;
+		min-height: 35px;
+	}
+	#panel1 .checkbox div{
+		float: right;
+		height: 35px;
+		padding-top: 8px;
+		margin-right: 5px;
+		font-size: 12px;
+	}
+	#panel1 .checkbox .check-name{
+		float: left;
+		margin-left: 10px;
+		margin-right: 0px;
+		padding-top: 5px;
+		font-size: 16px;
+	}
+	#panel1 .checkbox .check-color {
+		width: 30px;
+		height: 10px;
+		margin-top: 10px;
+	}
+	#panel1 .checkbox .check-parametr {
+		width: 215px;
+		height: 30px;
+	}
+	#panel1 .checkbox input{
+		display: block;
+		float: left;
+	}
+	#panel1 input[type="checkbox"] {
+		width: 15px;
+		height: 15px;
+		margin-left: 15px;
+		margin-top: 8px;
+		cursor: pointer;
+	}
+	#panel1 input[type="number"] {
+		padding: 0px 5px;
+		margin-top: 5px;
+		margin-right: 5px;
+		float: right;
+		width: 45px;
+		height: 25px;
+	}
+	#panel1 textarea[name="description"] {
+		min-height: 40px;
+	}
+	#panel2 .row {
+		margin-top: 10px;
+	} 
+	#panel2 .hd {
+		float: left;
+		margin-left: 15px;
+	} 
+	#panel2 .main-wrapper form[name="addDiscount"] p{
+		margin: 0px 0;
+	}
+	#panel3 .hd {
+		margin-top: 50px;
+	}
+	#panel3 .large-6.hd {
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	#panel3 .row {
+		padding: 0 20px;
+	}
+	#panel3 input,
+	#panel3 select,
+	#panel4 input,
+	#panel4 select {
+		height: 35px;	
+	}
+	#panel4 .row{
+		margin-left: 0px;
+	}
+	#panel3 input[type="submit"],
+	#panel4 input[type="submit"] {
+		height: inherit;
+	}
+	#panel4 input[type='color'] {
+		cursor: pointer;
+	}
+	#panel4 input {
+		max-width: 220px;
+	}
+	#panel4 .hd {
+		margin-top: 50px;
+	}
+	.waiting {
+		position: fixed;
+		width: 340px;
+		height: 65px;
+		padding-top: 20px;
+		left: 50%;
+		margin-left: -170px;
+		background: white;
+		border-radius: 10px;
+		border: solid 1px rgb(46,46,46);
+		text-align: center;
+	}
+#panel5 {
+
+}
+	#panel5 .mess-head {
+		width: 100%;
+		height: 50px;
+		background: white;
+		padding: 0 10px;
+		padding-top: 13px;
+		margin-bottom: 30px;
+		overflow: hidden;
+	}
+	#panel5 .mess-wrapp {
+		width: 100%;
+		height: 50px;
+		background: white;
+		border: solid 1px rgb(190, 190, 190);
+		padding: 0 10px;
+		padding-top: 13px;
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+	.mess-wrapp.state-waiting {
+		background: rgb(250, 250, 250) !important;
+	}
+	#panel5 .message {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+		min-height: 10px;
+	}
+	textarea[name='answer'] {
+		margin: 0 15px;
+		max-width: 790px;
+	}
+	input[type='submit'] {
+		margin-left: 16px;
+		margin-top: 10px;
+	}
+	#panel5 .product-link {
+		margin-left: 15px;
+	}
+	#panel5 .nested a{
+		color: black;
+	}
+	#panel5 .nested a:hover{
+		font-weight: bold;
+	}
+#panel6 {
+
+}
+	#panel6 .time-interval p {
+		display: block;
+		height: 20px;
+	}
+	#panel6 .time-interval input {
+		
+	}
+	#panel6 .time-interval button {
+		
+	}
+	#panel6 .main-table th,
+	#panel6 .main-table td {
+		text-align: center;
+		font-size: 14px;
+	}
+

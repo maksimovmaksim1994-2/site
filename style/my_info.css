@@ -1,0 +1,64 @@
+.wrapper  {
+	margin-left: 200px;
+	margin-top: 20px;
+	font-weight: 100;
+}
+.list {
+
+}
+	.list ul{
+		margin-top: 40px;
+	}
+	.list ul li{
+		margin-top: 30px;
+	}
+.form {
+	
+}
+	.form ul{
+		margin-top: 5px;
+	}
+	.form input{
+		margin-top: 30px;
+		margin-bottom: 25px;
+	}
+	.form input[name="username"],
+	.form input[name="surname"],
+	.form input[name="middlename"] {
+		display: block;
+		float: left;
+		margin-left: 10px;
+		max-width: 180px;
+		height: 30px;
+	}
+	.form input[name="email"],
+	.form input[name="telephone"] {
+		display: block;
+		margin-left: 10px;
+		max-width: 260px;
+		height: 30px;
+	}
+	.form select {
+		display: block;
+		float: left;
+		margin-left: 10px;
+		max-width: 180px;
+		height: 35px;
+		cursor: pointer;
+	}
+	.form .gender:first-child {
+		margin-left: 10px;
+	}
+	.form .gender {
+		margin-top: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		display: block;
+		float: left;
+		max-width: 180px;
+	}
+	.form input[name='send'] {
+		display: block;
+		float: right;
+		margin-top: 80px;
+	}

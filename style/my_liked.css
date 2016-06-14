@@ -1,0 +1,104 @@
+.row.main-wrapp .large-2{
+	height: 1px;
+}
+#show_my_liked{
+	max-width: 800px;
+	min-width: 450px;
+	min-height: 600px;
+	height: auto;
+	margin: 0 auto;
+} 
+	#show_my_liked .head-liked {
+		margin-top: 20px;
+	}
+	#show_my_liked .head-liked h4 {
+		margin-left: 25px;
+	}
+	#show_my_liked .head-liked .large-12:last-of-type {
+		font-size: 18px;
+	}
+	#show_my_liked .head-liked .large-6:last-of-type {
+		text-align: right;
+		padding-right: 75px;
+		font-size: 18px;
+	}
+	#show_my_liked .head-liked .large-12:last-of-type p {
+		text-align: left;
+		margin-left: 25px;
+	}
+.liked-product-wrapp {
+	height: auto;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+	.liked-product-wrapp .block-liked-product {
+		position: relative;
+		height: 150px;
+		max-width: 800px;
+		min-width: 450px;
+		padding: 5px 5px;
+		overflow: hidden;
+		margin-bottom: 10px;
+		-o-transition: .3s;
+		-moz-transition: .3s;
+		-webkit-transition: .3s;
+		transition: .3s;
+	}
+	.liked-product-wrapp .block-liked-product:hover {
+		box-shadow: 0px 0px 5px 1px rgb(220, 220, 220);
+	}
+	.liked-product-wrapp .liked-photo {
+		display: block;
+		height: 140px;
+		width: 100px;
+		margin-left: -14px;
+		overflow: hidden;
+	}
+	.liked-product-wrapp p {
+		margin: 5px;
+		font-size: 14px;
+	}
+	.liked-product-wrapp .liked-name {
+		margin-top: 10px;
+		margin-bottom: 4px;
+	}
+	.liked-product-wrapp .liked-description {
+		margin-bottom: -2px;
+	}
+	.liked-product-wrapp .liked-price {
+		display: inline-block;
+		margin: 0;
+		margin-top: 4px;
+		margin-left: 6px;
+	}
+	.liked-product-wrapp .liked-discount {
+		display: inline-block;	
+		margin-left: 5px;
+		font-size: 15px;
+		color: green;
+	}
+	.liked-product-wrapp .liked-size {
+		margin-left: 40px;
+		color: rgb(120, 120, 120);
+		font-style: italic;
+	}
+	.liked-product-wrapp .liked-count {
+		margin-left: 40px;
+		margin-top: 0px;	
+		color: rgb(120, 120, 120);
+		font-style: italic;
+	}
+	.liked-product-wrapp .liked-all-price {
+		margin-left: 40px;	
+		color: rgb(120, 120, 120);
+		font-style: italic;
+	}
+	.liked-product-wrapp .liked-size span,
+	.liked-product-wrapp .liked-count span,
+	.liked-product-wrapp .liked-all-price span {
+		color: black;
+		font-style: normal;
+	}
+	.line-through {
+	text-decoration: line-through;
+	}

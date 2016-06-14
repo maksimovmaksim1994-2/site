@@ -1,0 +1,329 @@
+body {
+	height: auto;
+	letter-spacing: .5px;
+}
+.main-spacer {
+	width: 100%;
+	height: 122px;
+}
+.top-bar,
+.top-bar ul {
+	background-color: inherit;
+}
+.top-bar#header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 15;
+}
+.top-bar#main-menu {
+	position: fixed;
+	top: 65px;
+	width: 100%;
+
+}
+.top-bar#product-panel {
+	position: fixed;
+	top: 112px;
+	width: 100%;
+
+}
+#header {
+	padding-top: 15px;
+	height: 65px;
+	vertical-align: center;
+		min-width: 500px;
+}
+	#header .columns {
+		width: auto;
+	}
+	#header .large-4 .menu {
+		margin-left: -15px;
+	}
+	#header .large-2 .menu {
+		margin-right: -30px;
+	}
+	#header a {
+		color: rgba(0,0,0, .7);
+	}
+	#header a:hover {
+		color: rgba(0,0,0, 1);
+		transition: .5s;
+	}
+	#header	.align-right {
+		position: relative;
+	}
+	#header	.align-right a {
+		font-size: 14px;
+	}
+		#header	.align-right .basket {
+			display: block;
+			position: relative;
+			top: -2px;
+			right: 0px;
+			width: 20px;
+			height: 20px;
+			border: 1px solid rgba(0,0,0, .4);
+			border-radius: 20px;
+		}
+		#header	.align-right .basket span {
+			display: block;
+			position: absolute;
+			top: 7px;
+			right: -9px;
+			width: 35px;
+			height: 25px;
+			border: 1px solid rgba(0,0,0, .4);
+			background: white;
+			text-align: center;
+		}
+		#header .profile {
+			height: 40px;
+		}
+		#header .user-menu {
+			display: none;
+			position: absolute;
+			margin-top: 40px;
+			margin-left: 15px;
+			z-index: 10;
+		}
+		#header .user-menu div{
+			position: relative;
+			width: 120px;
+			height: auto;
+			min-height: 50px;
+			background: white;
+			box-shadow: 0px 0px 5px 1px rgba(46, 46, 46, .3);
+		}
+		#header .user-menu span {
+			display: block;
+			position: absolute;
+			border: 10px solid transparent;
+			border-top: 10px solid white;
+			border-left: 10px solid white;
+			margin-top: -90px;
+			margin-left: 24px;
+			width: 0px;
+			height: 0px;
+			box-shadow: -6px -6px 5px -5px rgba(46, 46, 46, .3);
+			transform: rotate(45deg);
+		}
+		#header .user-menu div ul{
+			width: 120px;
+		} 
+		#header .user-menu div li{
+			margin-left: -5px;
+			margin-bottom: -15px;
+		} 
+		#header #main-logo {
+			text-align: center;
+		}
+		#header #main-logo a {
+			font-size: 22px;
+			font-weight: bold;
+		}
+#main-logo li{
+
+}
+#main-menu {
+	padding: 10px auto;
+	border-top: 1px solid rgb(235, 235, 235);
+	border-bottom: 1px solid rgb(235, 235, 235);
+	z-index: 14;
+}
+	#main-menu a {
+		display: block;
+		padding-top: 7.5px;
+		height: 30px;
+		color: rgba(0,0,0, .7);
+		text-shadow: 1px 1px 2px rgba(0,0,0, .3);
+		-o-transition: .3s;
+		-moz-transition: .3s;
+		-webkit-transition: .3s;
+		transition: .3s;
+	}
+	#main-menu a:hover {
+		color: rgba(0,0,0, 1);
+		text-shadow: 1px 1px 2px rgba(0,0,0, .1);
+	}
+	#main-menu .top-bar-right .menu {
+		margin-left: 15px;
+	}
+	#main-menu .top-bar-right input[type="search"] {
+		height: 30px;
+		width: 200px;
+		font-size: 14px;
+	}
+	#main-menu .top-bar-right button {
+		position: relative;
+		height: 30px;
+		width: 50px;
+		padding-top: 7px;
+		background-color: rgba(0,0,0, .8);
+		border-radius: 5px;
+	}
+	#main-menu .top-bar-right button:hover {
+		background-color: rgba(0,0,0, 1);
+	}
+		#main-menu .top-bar-right button span {
+			display: block;
+			position: absolute;
+			top: 4px;
+			left: 15px;
+			width: 15px;
+			height: 15px;
+			border: 1px solid white;
+			border-radius: 15px;	
+		}
+		#main-menu .top-bar-right button span::before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 10px;
+			left: 14px;
+			width: 2px;
+			height: 10px;
+			background: white;	
+			-o-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+#product-panel {
+	display: none;	
+	top: -2px;
+	width: 100%;
+	height: 260px;
+	padding-left: 35px;
+	box-shadow: 0px 2px 5px 0px rgb(180, 180, 180);
+	z-index: 100;
+}
+	#product-panel h2 {
+		margin-top: 10px;
+		color: rgb(140, 140, 140);
+		font-weight: 300;
+		font-size: 24px;
+	}
+	#product-panel ul {
+		display: block;
+		float: left;
+		margin-top: 20px;
+		margin-left: -10px;
+	}
+	#product-panel ul li{
+		margin-top: -10px;
+
+	}
+	#product-panel ul li a{
+		color: rgba(0,0,0, .7);
+		text-shadow: 1px 1px 2px rgba(0,0,0, .2);
+		-o-transition: .2s;
+		-moz-transition: .2s;
+		-webkit-transition: .2s;
+		transition: .2s;
+	}
+	#product-panel ul li a:hover{
+		color: rgba(0,0,0, 1);
+		text-shadow: 1px 1px 2px rgba(0,0,0, .1);
+	}
+	#product-panel .all-categori {
+		color: rgba(0,0,0, .5);
+	}
+#login,
+#registration,
+#losepswd,
+#sendpswd {
+	margin-top: 100px;
+	max-width: 350px;
+	text-align: center;
+}
+	#login h4,
+	#registration h4,
+	#losepswd h4,
+	#sendpswd h4{
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	#login input[type='email'],
+	#login input[type='password'],
+	#registration input[type='email'],
+	#registration input[type='password'],
+	#registration input[type='text'],
+	#registration input[type='tel'],
+	#losepswd input[type='email'] {
+		max-width: 280px;
+		height: 30px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	#login input[name='send'],
+	#registration input[name='send'],
+	#losepswd input[name='send'],
+	#sendpswd button{
+		display: block;
+		padding-top: 10px;
+		max-width: 280px;
+		height: 35px;
+		vertical-align: middle;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	#login .new_user {
+		margin-top: 15px;
+		padding-top: 20px;
+		height: 45px;
+		width: 100%;
+		box-shadow: inset 0px 8px 10px -10px rgba(180, 180, 180, 1);
+	}
+	#login .new_user a{
+		color: rgba(0,0,0, .7);
+	}
+	#login .new_user a:hover{
+		color: rgba(0,0,0, 1);
+	}
+	#login .losepwd {
+		position: absolute;
+		color: rgba(0,0,0, .7);
+		margin-top: -45px;
+		right: 40px;
+		font-size: 14px;
+	}
+	#login .losepwd:hover {
+		color: rgba(0,0,0, 1);
+	}
+	#login .error {
+		margin: -15px 0px 5px 0px;
+		color: red;
+		font-size: 14px;
+	}
+	#registration .error {
+		margin: -15px 0px 5px 0px;
+		color: red;
+		font-size: 14px;
+	}
+	#losepswd .error {
+		margin: -15px 0px 5px 0px;
+		color: red;
+		font-size: 14px;
+	}
+	#losepswd .waiting {
+		margin: -15px 0px 5px 0px;
+		color: rgb(46,46,46);
+	}
+.degradation{
+	display: none;
+	position: fixed;
+	width: 100%;
+	background: white;
+	opacity: 0;
+	z-index: 18;
+}
+.degradation-top {
+	top: 0;
+	height: 65px;
+}
+.degradation-bottom {
+	top: 112px;
+	height: 100%;
+}

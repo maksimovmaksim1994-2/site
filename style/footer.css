@@ -1,0 +1,64 @@
+.foot-panel {
+	position: fixed;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+	background: rgba(80,80,80, .8);
+	z-index: 10;
+}
+	.foot-panel .back-up {
+		width: 50px;
+		height: 35px;
+		background: rgb(80,80,80);
+		border-radius: 3px;
+		border: solid 1px white;
+		cursor: pointer;
+		transition: .3s all;
+		-webkit-transition: .3s all;
+		-moz-transition: .3s all;
+		-o-transition: .3s all;
+	}
+	.foot-panel .back-up .arrow {
+		position: absolute;
+		width: 2px;
+		height: 18px;
+		background: white;
+		margin-top: 8px;
+		margin-left: 23px;
+	}
+	.foot-panel .back-up .arrow::before {
+		content: "";
+		display: block;
+		width: 15px;
+		height: 15px;
+		margin-left: -6.25px;
+		margin-top: 1px;
+		border-left: solid 2px white;
+		border-top: solid 2px white;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+	}
+	.back-up-active {
+		background: rgb(240, 240, 240) !important;
+	}
+	.back-up-active:hover {
+		background: white !important;
+		box-shadow: inset 0px 0px 3px 1px rgb(180, 180, 180);
+		transition: 0s all;
+		-webkit-transition: 0s all;
+		-moz-transition: 0s all;
+		-o-transition: 0s all;
+	}
+	.back-up-active .arrow {
+		background: rgb(80,80,80) !important;
+	}
+	.back-up-active .arrow::before {
+		border-left: solid 2px rgb(80,80,80) !important;
+		border-top: solid 2px rgb(80,80,80) !important;
+	}
+footer {
+	height: 340px;
+	background: rgba(0,0,0, .8);
+}
